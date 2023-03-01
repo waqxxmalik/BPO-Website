@@ -1,0 +1,373 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>KPleads</title>
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"/>
+  
+</head>
+<body>
+
+
+	
+
+<style type="text/css">
+@import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,400;1,300;1,400&display=swap');
+body {
+	overflow-x: hidden;
+    font-family: 'Raleway', sans-serif;
+} 
+ .black {
+ 	position: relative;
+ 	background-color: black;
+ 	width: 100%;
+    height: 31vh;
+ }
+ img {
+ 	position: absolute;
+ 	height: 25%;
+ 	width: 100%;
+ }
+
+.form-logo {
+	position: absolute;
+	width: 30%;
+	height: 100%;
+	margin-left: 30%;
+}
+	
+
+h3{
+	color: #363636;
+    font-weight: 400;
+    line-height: 1.125;
+    padding-top: 30px;
+}
+
+.formback {
+background: url("https://i.ibb.co/h2NY52M/fredrick-tendong-6ou8g-Wp-S9ns-unsplash.jpg");
+position: absolute;	
+background-repeat: no-repeat;
+background-size: cover;
+width: 100%;
+height: 250vh;
+	
+}	
+
+
+ input{
+-webkit-appearance: none;
+    align-items: center;
+    background-color: transparent;
+    border: 2px solid #af2a2b;
+    border-radius: 50px;;
+    color: #363636;
+    display: inline-flex;
+    font-size: 14px;
+    height: 32px;
+    justify-content: flex-start;
+    line-height: 24px;
+	padding-top: 18px;
+	padding-bottom: 18px; 
+    padding-left: 15px;
+    padding-right: 8px;
+    position: relative;
+    vertical-align: top;
+    box-shadow: inset 0 1px 2px hsl(0deg 0% 4% / 10%);
+    max-width: 100%;
+    width: 100%;
+	margin-top: 10px;
+	margin-bottom: 10px; 
+}
+
+	.select input {
+		background: transparent;
+	}
+	.select {
+	border: 2px solid #af2a2b;
+	border-radius: 50px;	
+	background: #af2a2b;
+	padding-top: 5px;
+	padding-bottom: 5px; 
+    padding-left: 15px;
+    padding-right: 8px;
+    
+	}
+	input:focus {
+		border: none;
+       color: red;
+	}
+	input[type="text"] {
+    color: white;
+	font-weight: 400;	
+	font-family: Arial, sans-serif;
+}
+
+::placeholder {
+ color: white;
+ font-weight: 700;	
+	}	
+	
+.selected { 
+ width: 100%;
+ background: transparent;
+ color: white;	
+ padding: 5px;
+ border: 2px solid #af2a2b;	 
+ border-radius: 50px;
+ box-sizing: border-box;
+ padding-top: 10px;
+ padding-bottom: 10px; 
+ padding-left: 15px;
+ padding-right: 8px;
+ margin-bottom: 5px;
+ } 
+
+	textarea::placeholder{
+		color: white;
+		font-weight: 700;
+		padding: 30px 70px 30px;
+	}
+ textarea {
+	 width: 100%;
+	 background: transparent;
+	 border-radius: 30px;
+	 height: 20vh;
+	 padding-left: 30px;
+	 border: 2px solid #af2a2b;
+}
+ textarea:focus {
+    background: black;
+    color: brown;
+    font-weight: 700;
+}
+
+
+button {
+    padding: 12px 45px;
+    background: black; color: brown;
+    border-radius: 25px;
+    margin: 20px 0px;
+    font-weight: 600;
+}
+button:hover {
+    cursor: pointer;
+    padding: 12px 45px;
+    background: brown; 
+    color: black;
+    border-radius: 25px;
+    margin: 20px 0px;
+    font-weight: 600;
+}
+
+
+#custom-button {
+  padding: 10px;
+  color: white;
+  background-color: brown;
+  border: none;
+  border-radius: 30px;
+  cursor: pointer;
+}
+
+#custom-button:hover {
+  background-color: black;
+}
+
+#custom-text {
+  margin-left: 10px;
+  font-family: sans-serif;
+  color: white;
+}
+
+
+@media(max-width: 574px){
+.formback {
+background: url("https://i.ibb.co/h2NY52M/fredrick-tendong-6ou8g-Wp-S9ns-unsplash.jpg");
+position: absolute;	
+background-repeat: no-repeat;
+background-size: cover;
+width: 100%;
+height: 350vh;
+	
+}	
+		
+	
+}	
+	
+</style>
+
+<div class="black">
+<div class="container">
+   <img class="form-logo" src="https://lh3.googleusercontent.com/yRGXXqm9UlJ-IZ81qz5gt6NwnH9VaWvkLXry0ID92Ym-NgIhvMVHldJgxTTNHApg1V1N=s105">	
+</div>
+</div>
+
+<div class="formback">
+  <form action="sendemail" class="form-validation" method="POST" enctype="multipart/form-data">
+ <div class="container">
+<h3 style="padding-bottom: 40px; color: brown" class="text-white">New Candidate Form</h3>
+
+ 	 <div class="row">
+  
+   <div class="col-md-6">
+        
+        <input type="text" name="name" placeholder="Full Name">
+        <input type="text" name="phone" placeholder="Phone">  	 	
+        <input type="text" name="secondary" placeholder="Secondary Number">
+
+        <input type="text" name="emergency" placeholder="Emergency Contact ">
+       
+         
+
+        <input type="email" name="email" placeholder="Email Address">
+       	 	
+        <label>
+
+        <input type="text" name="address" placeholder="Address">
+       
+        
+        <input type="text" name="address2" placeholder="Address2">
+         	
+        <input type="text" name="address3" placeholder="Address3">
+                  
+        <input type="text" name="city" placeholder="City">
+       
+        
+        <input  type="text" name="province" placeholder="Province">
+       
+
+         <input  type="email" name="skype" placeholder="Skype">  	 	
+        
+  </div>
+ 
+ <div class="col-md-6">
+       
+         
+        <input  type="text" name="dob" placeholder="D.O.B">  	 	
+   	    
+       
+        
+        <input  type="text" name="cnic" placeholder="CNIC">
+         	 	
+         <div class="form-group">
+         <select class=" selected" name="gender">
+        	<option class="disb" disabled selected>Gender</option>
+        	<option value="male">Male</option>
+        	<option value="female">Female</option>
+         </select>	
+        </div>
+         <div class="form-group">
+        <select class=" selected" name="martial">
+        	<option>Martial Status</option>
+        	<option value="singlele">Single</option>
+        	<option value="married">Married</option>
+        </select>  	 	
+        </div>
+        
+         <div class="form-group">
+        <select class=" selected" name="find">
+        	<option disabled selected>How Did You Find Us</option>
+        	<option value="Ebp">EBP-Economic Planning Board </option>
+        	<option value="facebook">Facebook</option>
+        	<option value="facebook">Linkedin</option>
+        	<option value="Indeed">Indeed Job Portal</option>
+        	<option value="work">Reffered by WORK employe</option>
+        	<option value="friend">Rozee</option>
+        	<option value="facebook">Carrirer Expo</option>
+        	<option value="newspaper">Newspaper</option>
+        	<option value="OLX">OLX</option>
+        	<option value="university">University Graduates</option>
+        	<option value="leeds">Facebook leeds</option>
+                 
+        </select>  	 	
+        </div>
+    
+         <div class="form-group">
+        <select class=" selected" name="work">
+        	<option disabled selected>Position Applied For</option>
+        	<option value="home">Sales Work From Home</option>
+        	<option value="office">Sales Work From Office</option>
+        	<option value="management">Management</option>
+        	<option value="sport">Sport Staff</option>
+                 
+        </select>  	 	
+        </div>
+        
+        <select class="selected" name="schedule">
+        	<option disabled selected>Schedule</option>
+        	<option value="full">Full Time</option>
+           	<option value="part">Part Time</option>
+           	<option value="part">Part Time</option>
+                 
+        </select>  	 	
+     
+      
+         <div class="form-group">
+        <select class=" selected" name="location">
+        	<option disabled selected>Location...</option>
+        	<option value="singlele">Bahria Rwp</option>
+        	<option value="married">Karachi Saddar</option>
+                 
+        </select>  	 	
+        </div>
+        <label> </label>
+         <div class="form-group">
+        <select class=" selected" name="exp">
+        	<option disabled selected>Experirnce in Months</option>
+        	<option value="experirnce">3</option>
+        	<option value="experirnce">6</option>
+        	<option value="experirnce">9</option>
+        	<option value="experirnce">12</option>
+        	<option value="experirnce">16</option>
+        	<option value="experirnce">18</option>
+        	<option value="experirnce">24</option>
+        	<option value="experirnce">36</option>
+        	<option value="experirnce">48</option>
+        	<option value="experirnce">60</option>         
+        </select>  	 	
+        </div>
+         
+         <div class="form-group">
+         <textarea  placeholder="Describe yourself here..."></textarea>
+         </div>   	   
+ 
+			 
+         <div class="form-group">
+         <select class="selected" name="speed">
+        	<option disabled selected>Internet Speed (Download)..</option>
+        	<option value="male">1-2 MB</option>
+        	<option value="male">2-4 MB</option>
+        	<option value="male">4-6 MB</option>
+        	<option value="male">6-8 MB</option>
+        	<option value="male">8+ MB</option>	
+         </select>
+
+         <p style="font-size: 13px; color: white; font-weight: 600 ">Check your Speed by going to 'www.speedtest.net'. Download speed should be a minimum of 5 MB & Upload should be a minimum of 3 MB</p>  	 	
+        </div>
+   	    
+        
+          
+            <div class="form-group select">
+                <input style="color: white; font-weight: 600; border: none;" type="file" required class="form-control" name="image" id="">
+            </div>
+   
+   	</div>
+    <div class="col-md-8 col-xs-12">
+    	<p style="padding-top: 10px; color: white; font-weight: 600">Once you hit Submit, you will be redirected to our Company Facebook page. Hit Like to continue getting company Updates</p>
+    
+    <button> Submit </button>
+
+    </div>  
+
+  </div>
+ </div>
+
+
+
+</form>
+</div>
+
+ 
+
+</body>
+</html>

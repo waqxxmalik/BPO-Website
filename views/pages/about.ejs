@@ -1,0 +1,409 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>KPleads</title>
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">	
+
+<link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+<link rel="stylesheet" type="text/css" href="video.css">
+<link href="https://fonts.googleapis.com/css2?family=Alata&display=swap" rel="stylesheet">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+	
+<style>
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,300;0,400;1,100;1,300;1,700;1,900&display=swap');
+	
+body {
+font-family: 'Lato', sans-serif;		
+}
+html {
+width: 100%;
+height: 100%;
+padding: 0px;
+margin: 0px;
+overflow-x: hidden;	
+}	
+
+.section {
+background-repeat: no-repeat;
+height: 100vh;	
+width: 100%;
+background-size: cover;
+background-position: left;
+	
+}		
+.maindata {
+	
+	 background: #1c1c1c;
+     overflow: hidden;
+     }
+.join {
+		color: white;
+		background: #af2a2b;
+		border-radius: 50px;
+		margin-left: 150px;
+		border: none;
+	}
+.maindata .toggler {	
+background: #af2a2b;	
+	
+}
+
+	.data  li{
+margin-top: 0px;
+text-align: center;
+justify-content: center;	
+
+}
+	
+.navlogo {
+ height: 40px;	
+ width: 60%;	
+ margin-right: 50px;	
+ text-align: center;
+ justify-content: center;	
+	}	
+.join:hover {
+		background:white;
+		color: red;
+	}
+	
+
+.maindata .data .navdata .links .nav-link {
+   color: white;
+   margin-right: 30px;	
+   margin-top: 5px;	
+   font-weight: 300;	
+}
+.maindata .data .navdata .links .nav-link:hover{
+		color: #af2a2b;
+	}
+		
+.center img	{
+	margin-left: -20px;	
+	}
+.footer {
+	background: url("https://i.ibb.co/Hhd6Vvz/pexels-mart-production-7709262.jpg")  no-repeat ; 
+  background-size: cover;
+	
+}
+
+.footer-col {
+	width: 25%;
+	padding: 0 15px;
+}
+
+.footer-col h4 {
+	font-size: 18px;
+	color: #af2a2b;
+	text-transform: capitalize;
+	margin-top: 20px;
+	margin-bottom: 35px;
+	font-weight: 900;
+	position: relative;
+
+}
+
+.footer-col h4::before {
+	content: '';
+	position: absolute;
+	left: 10;
+	bottom: -10px;
+	background-color: gray;
+	height: 2px;
+	box-sizing: border-box;
+	width: 50px;
+}
+.footer-col ul li:not(:last-child){
+	margin-bottom: 10px;
+}
+
+.footer-col ul li a {
+	font-size: 16px;
+	text-transform: capitalize;
+	color: #ffffff;
+	text-decoration: none;
+	font-weight: 300;
+	color: #faf5f5;
+	display: block;
+	transition: all 0.3s ease;
+}
+
+.footer-col ul li a:hover {
+	color: #ffffff;
+	padding-left: 8px;
+}
+
+.footer-col .social-links a {
+	display: inline-block;
+	height: 40px;
+	width: 40px;
+	background-color: rgba(255, 255, 255, 0.2);
+	margin: 0 10px 10px 0;
+	text-align: center;
+	line-height: 40px;
+	border-radius: 50%;
+	color: #ffffff;
+	transition: all 0.5s ease;
+}
+
+.footer-col .social-links a:hover {
+	color: #24262b;
+	background-color: #ffffff;
+}
+
+.form-footer input{
+ position: relative;
+ padding: 5px;
+ width: 100%;
+ height: auto;
+ background-color: transparent;
+ border: 2px solid red;
+ border-radius: 5px;
+ color: white;
+}
+
+.form-footer textarea {
+ position: relative;
+ width: 100%;
+ height: 20vh;
+ background-color: transparent;
+ border: 2px solid red;
+ border-radius: 5px;
+ color: white;
+}
+
+.footer-btn {
+	width: 80%;
+	margin-left: 40px;
+	background-color: brown;
+	border: none;
+	color: white;
+}
+
+
+	
+@media(max-width: 767px){
+	
+	.vision {
+		margin-right: -120px;
+	}
+	.navlogo {
+display: none;	
+	}	
+	.footer-col {
+		width: 50%;
+		margin-bottom: 30px;
+	}
+	.second-col {
+		margin-top: 30px;
+	}
+	#apply {
+	
+		margin-right: 180px;
+	}
+}
+
+@media(max-width: 574px){
+	
+	.center img {
+		margin-left: 0px;
+		margin-bottom: 10px;
+	}
+	.footer-col {
+		width: 100%;
+	}
+	.footer-col ul li {
+	text-align: center;
+	margin-right: 30px;	
+	}
+	
+	.footer-btn {
+	width: 90%;
+	margin-left: 40px;
+	background-color: brown;
+	border: none;
+	color: white;
+}
+
+	.navbar-toggler {
+	margin-top: 10px;
+	margin-right: 10px;
+	}
+	
+	
+	.maindata .data .navdata .links .nav-link{
+		padding-left: 30px;
+	}
+	.butn {
+		margin-left: 30px;
+	}
+	.second-col {
+		margin-top: 30px;
+	}
+	#apply {
+	
+		margin-right: 180px;
+	}
+	.navlogo {
+display: none;	
+	}	
+}
+
+</style>	
+</head>
+<body>
+
+
+
+<nav class="navbar navbar-expand-lg navbar-light  maindata">
+   <button class="navbar-toggler toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+
+  <div class="collapse navbar-collapse data" id="navbarSupportedContent">
+    <ul class="navbar-nav mx-auto navdata mx-5">
+      <a class="navbar-brand" href="/"><img 
+class="navlogo"	src="https://i.ibb.co/NtfKMkZ/Logo-2-1.png"></a>
+  
+		<li class="nav-item active links">
+        <a class="nav-link" href="/" style='color: #af2a2b; font-weight: 600;'>Home <span class="sr-only">(current)</span></a>
+      </li>
+     <li class="nav-item links">
+        <a class="nav-link" href="/about">About us</a>
+      </li>
+      <li class="nav-item links">
+        <a class="nav-link" href="#">Resources</a>
+      </li>
+	<li class="nav-item links">
+        <a class="nav-link" href="/contact">Contact us</a>
+      </li> 
+	 <li  class="nav-item links">
+      <a class="btn btn-primary btn-lg join" class="nav-link" href="/sendemail">Join us</a>     
+      </li>
+    </ul>
+  </div>
+</div>
+</nav>	
+
+<img class="section img-fluid" src="https://images.pexels.com/photos/9278320/pexels-photo-9278320.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500">	
+	
+	
+<div class="container">
+	<div class="row">
+		<div class=col-md-12>
+			<h1  style="font-family: 'Lato', sans-serif; color: #af2a2b;	
+font-weight: 900; text-align: center; margin-top: 100px; margin-bottom: 40px;">
+				ABOUT US
+			</h1>
+			<h5 style="color: purple; font-weight: 500;">
+			Our Story
+	
+			</h5>
+			<p style="font-family: 'Lato'; margin-bottom: 100px;">
+				After winning a grant of over 1 million at KP Impact Challenge among 1500 people from all over the country, KP LEADS was founded by Numan Saeed with a vision of building high-scale industry linkages in the BPO sector. What started off as a small-scale setup of 6 employees in Peshawar has now grown into one of the leading telemarketing companies of the twin cities with a headcount of over 500 employees countrywide.  And this doesn’t stop here, as our international linkages include over 200 foreign representatives. We are now among the fastest growing companies of the country providing employment opportunities to every individual, irrespective of their age, gender, and education. 
+				</p>
+			
+		</div>
+	</div>
+	
+	
+	<div class="row" style="margin-bottom: 50px;">
+		<div class="col-md-1 center"> 		
+		<img  style="width: 80px;" src="https://i.ibb.co/1RcZyg4/vision.png">
+		</div>
+		<div class="col-md-5">
+			<h3 style="font-family: 'Lato'">Our Vision</h3>
+			<p>
+			At KP LEADS, we believe in creating a team that is committed to excellence and integrity. This company was founded with a motto of “Connecting Beyond Limits”, to pave the way for a globally acclaimed BPO. This way, we are able to deliver industry-level business solutions on a massive scale as seamlessly as possible. 
+	
+			</p>	
+		</div>		
+       <div class="col-md-1 center"> 		
+		<img class="mission" style="width: 80px;" src="https://i.ibb.co/1mwkgD9/Mission.png">	  
+		</div>
+		<div class="col-md-5">
+			<h3>
+			Our	Mision
+			</h3>
+			<p style="max-width: 800px;">
+				We aim to provide superior quality customer services to our clients based in US to help enhance their businesses. Our workforce of dynamic and talented individuals is trained in a manner that enables them to assist every client with utmost satisfaction and precision.
+			</p>	
+		</div>		
+	 </div>
+</div>
+  <footer class="footer">
+	  <div class="container">
+		  <div class="row">
+			  <div class="col-xs-12 col-md-3 footer-col">
+				  <h4 style="text-align: center;">Kpleads</h4>
+				  <ul>
+				    <p class="text-white">Take advantage of a talented and educated global labor force that is extremely motivated to work for you. We specialize in creating processes to maximize your core staff productivity. Plus we win awards for 3rd party technology sales, complex back office support, call center support, accounting, and health care initiatives.</p>
+                   
+				  </ul>
+			  </div>
+			  <div class="col-xs-12 col-md-3 footer-col">
+				  <h4 style="text-align: center;">SOLUTIONS</h4>
+				  <ul class="text-white" style="list-style: none;">
+					<li>Final Expenses</li>
+					<li>Business Solutions</li>
+					<li>Auto & Health</li>
+					<li>Insurance Agency</li>
+					<li>Inbound Customer Service</li>
+					<li>Home Security & Solar</li>
+
+				  </ul>
+			  </div>
+			  <div class="col-xs-12 col-md-3 footer-col">
+				  <h4 style="text-align: center;">COMPANY</h4>
+				  <ul class="text-white" style="list-style: none;">
+					<li>About Us</li>
+					<li>Events</li>
+					<li>Careers</li>
+					<li>Contact Us</li>
+				  </ul>
+			  </div>
+			  <div class="col-xs-12 col-md-3 footer-col">
+				  <h4 style="text-align: center;">follow us</h4>
+				  <ul class="form-footer" style="list-style: none;">
+                      <div class="form-group">
+                      	<input type="text" name="" placeholder="Email">   
+                      </div>
+                      <div class="form-group">
+                      <textarea placeholder="Message">	
+                      </textarea>
+                      </div>
+                  </ul>
+                           <div class="form-group">
+                      <a href="" class="btn btn-md btn-primary footer-btn">Send</a>	
+                      </div>
+				  
+			  </div>
+		  </div>
+	  </div> 
+		 <div class="row">
+			 <div class="col-md-12">
+				 <p style="color: red; text-align: center; margin-top: 40px;">
+					<span style="color: brown"> &copy; </span> Kpleads 
+				 </p>
+			 </div>
+		  </div> 
+	  </div>
+  </footer>
+	
+	
+	
+<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>	
+ <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+
+<script>
+	    AOS.init({
+            offset: 300,
+            duration: 1000,
+        });
+        </script>	
+	
+</body>
+</html>	

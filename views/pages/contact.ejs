@@ -1,0 +1,230 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">	
+
+<link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+<link rel="stylesheet" type="text/css" href="video.css">
+        <link href="https://fonts.googleapis.com/css2?family=Alata&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous"/>	
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	
+<style>
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,300;0,400;1,100;1,300;1,700;1,900&display=swap');
+	
+body {
+font-family: 'Lato', sans-serif;		
+font-weight: 300;	
+	}
+html {
+width: 100%;
+height: 100%;
+padding: 0px;
+margin: 0px;
+overflow-x: hidden;	
+}
+.maindata {
+	
+	 background: #1c1c1c;
+     overflow: hidden;
+     }
+
+.maindata .toggler {	
+background: #af2a2b;	
+	
+}
+
+	.data  li{
+margin-top: 0px;
+text-align: center;
+justify-content: center;	
+
+}
+	
+.navlogo {
+ height: 40px;	
+ width: 60%;	
+ margin-right: 50px;	
+ text-align: center;
+ justify-content: center;	
+	}	
+
+
+.maindata .data .navdata .links .nav-link {
+   color: white;
+   margin-right: 30px;	
+   margin-top: 5px;	
+   font-weight: 300;	
+}
+.maindata .data .navdata .links .nav-link:hover{
+		color: #af2a2b;
+	}
+	
+.background {
+        position: absolute;	
+ 	    background-repeat: no-repeat;
+		height: 100vh;	
+		background-size: cover;
+        background-position: left;
+        opacity: 60%;	
+	    z-index: 0;
+        width: 100%;	
+		}	
+	      	
+	i {
+		padding-right:10px;
+	    font-size: 30px;
+		color: #af2a2b;
+	}
+	input {
+		border: none;
+		border-bottom: 1px solid gray;
+		padding-top: 40px;
+		margin-left: 20%;
+	}
+	textarea {
+		border: none;
+		border-bottom: 1px solid gray;
+		padding-top: 40px;
+		margin-left: 20%;
+
+	}
+	.second {
+		background: white;
+		max-width: 70%; 
+		height: 400px;
+	}
+	.join {
+		color: white;
+		background: #af2a2b;
+		border-radius: 50px;
+		margin-left: 150px;
+		border: none;
+	}
+	.join:hover {
+		background:white;
+		color: red;
+	}
+	@media only screen and (max-width: 992px) {
+		.second{
+			max-width: 100%;
+			margin-right: 30%;
+			padding-right: 100px;
+		    
+			
+		}	
+	}
+
+   	@media (max-width: 762px){
+		.second {
+		    max-width: 100%;
+			margin-left: 40%;	
+		}
+	   
+	}
+		
+	@media(max-width: 576px){
+	  	.second{
+			max-width: 70%;
+			margin-left: 20%;
+			padding-right: 100px;
+		}
+		
+	}
+</style>		
+
+
+	
+</head>
+
+<body>
+
+<nav class="navbar navbar-expand-lg navbar-light  maindata">
+   <button class="navbar-toggler toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+
+  <div class="collapse navbar-collapse data" id="navbarSupportedContent">
+    <ul class="navbar-nav mx-auto navdata mx-5">
+      <a class="navbar-brand" href="#"><img 
+class="navlogo"	src="https://i.ibb.co/NtfKMkZ/Logo-2-1.png"></a>
+  
+		<li class="nav-item active links">
+        <a class="nav-link" href="/" style='color: #af2a2b; font-weight: 600;'>Home <span class="sr-only">(current)</span></a>
+      </li>
+     <li class="nav-item links">
+        <a class="nav-link" href="/about">About us</a>
+      </li>
+      <li class="nav-item links">
+        <a class="nav-link" href="#">Resources</a>
+      </li>
+	<li class="nav-item links">
+        <a class="nav-link" href="/contact">Contact us</a>
+      </li> 
+	 <li  class="nav-item links">
+      <a class="btn btn-primary btn-lg join" class="nav-link" href="/sendemail">Join us</a>     
+      </li>
+    </ul>
+  </div>
+</div>
+</nav>	
+
+<div>
+ <img class="background" src="https://images.pexels.com/photos/9291260/pexels-photo-9291260.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500">
+	 <div class="container">
+		 <div class="row">
+			 <div class="col-md-6 first">
+				<div class="row">
+					<div class="col-md-12" style="margin-top: 20%;">
+						<p style="color: white; font-weight: 700; margin-top: 5%; margin-left: 30%;%; z-index: 1; opacity: 100%;">
+						<i class="fas fa-map-marker-alt"></i><span style="background: #af2a2b; padding: 5px; ">ADDRESS </span> 	 	
+						</p>
+						<p style= "color:black;font-weight: 500; display: block;margin-left: 100px;">
+						C Block Block C Satellite Town, Rawalpindi, Punjab	
+						</p>
+						
+					</div>
+					<div class="col-md-12">
+						<p style="color: white; font-weight: 700; margin-top: 5%; margin-left: 30%; z-index: 1;">
+		<i class="fas fa-phone-alt"></i><span style="background: #af2a2b; padding: 5px; ">PHONE </span> 		
+						</p>
+						<p style= "color:black;font-weight: 500; display: block;margin-left: 150px;">
+						(051) 8890474	
+						</p>
+					</div>
+					<div class="col-md-12">
+						<p style="color: white; font-weight: 500; margin-top: 5%; margin-left: 30%; z-index: 1;">
+						<i class="fas fa-envelope"></i><span style="background: #af2a2b; padding: 5px; ">EMAIL </span> 		
+						</p>
+						<p style= "color:black;font-weight: 500; display: block;margin-left: 150px;" >
+						info@kpleads.com	
+						</p>
+					</div>
+				 </div> 
+			 </div>
+		     <div class="col-sm-6">
+			  <div class="container second">
+			 <form style="margin-top: 40%;">
+			 <h4 style="color:#af2a2b;text-align: center; padding-top: 20px;">Send us a Message !</h4>	 
+		 
+			 <input type="text" placeholder="Name"><br>
+			 
+			 <input type="text" placeholder="Email"><br>
+			 	 
+			 <textarea placeholder="Message"></textarea>
+	         <input style="width: 65%; margin-top: 30px;border: none; background: #af2a2b; " class="btn btn-primary btn-lg" type=submit value="Send">
+			 </form>	 
+		 
+			  </div>	 
+			 </div>
+		 
+		 </div>
+	</div>
+	
+	
+</div>	
+
+	
+</body>
+</html>

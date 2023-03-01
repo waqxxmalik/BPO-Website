@@ -1,0 +1,566 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>KPleads</title>
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">	
+
+<link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+<link rel="stylesheet" type="text/css" href="video.css">
+<link href="https://fonts.googleapis.com/css2?family=Alata&display=swap" rel="stylesheet">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+	
+<style>
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,300;0,400;1,100;1,300;1,700;1,900&display=swap');
+
+		body {
+			font-family: 'Lato', sans-serif;		
+
+		}
+		
+		
+		.background {
+	    background-repeat: no-repeat;
+		height: 100vh;	
+		background-size: cover;
+        background-position: left;
+	
+		}
+		
+html {
+width: 100%;
+height: 100%;
+padding: 0px;
+margin: 0px;
+overflow-x: hidden;	
+}	
+
+.maindata {
+	
+	 background:  #1c1c1c;
+     overflow: hidden;
+     }
+.maindata .toggler {
+background: #af2a2b ;		
+}
+
+.data  li{
+margin-top: 0px;
+text-align: center;
+justify-content: center;	
+
+}
+	
+.navlogo {
+ height: 40px;	
+ width: 60%;	
+ margin-right: 50px;	
+ text-align: center;
+ justify-content: center;	
+	}	
+
+.maindata .data .navdata .links .nav-link {
+   color: white;
+   margin-right: 30px;	
+   margin-top: 5px;	
+   font-weight: 300;	
+}
+.maindata .data .navdata .links .nav-link:hover{
+		color: #af2a2b;
+	}
+
+.text-center {
+	margin: 80px 0;
+} 
+.images {
+	position: absolute;
+	float: right;
+	padding-top: 30px;
+	height: 60vh
+}
+
+.images2 {
+	float: left;
+	padding-left: 20px;
+	padding-top: 30px;
+	height: 60vh
+}
+
+.second {
+	margin-top: 40px;
+	width: 100%;
+	height: 100vh;
+	text-align: center;
+	background-color: rgba(0, 0, 0, 0.5);
+}
+
+section {
+    position: relative;
+    background: url("https://images.unsplash.com/photo-1560264280-88b68371db39?ixid=MnwxMjA3fDB8MHxzZWFyY2h8MXx8Y2FsbCUyMGNlbnRlcnxlbnwwfHwwfHw%3D&ixlib=rb-1.2.1&w=1000&q=80");
+    width: 100%;
+    height: 100vh;
+    display: block;
+    background-size: cover;
+    overflow: hidden;
+}
+.join {
+		color: white;
+		background: #af2a2b;
+		border-radius: 50px;
+		margin-left: 150px;
+		border: none;
+	}
+
+.apply 
+	{
+		color: white;
+		background: #af2a2b;
+		margin-left: 150px;
+		border: none;
+	}
+	
+		
+		
+span {
+			color: #af2a2b
+	}		
+.text {
+ position: absolute;
+ top: 40%;	
+}
+
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+.conatiner {
+	max-width: 1170px;
+	margin: auto;
+}
+
+.row {
+	display: flex;
+	flex-wrap: wrap;
+}
+
+ul {
+	list-style: none;
+}
+
+		
+/* .....Footer-section Start.......................................*/
+
+.footer {
+	background: url("https://i.ibb.co/Hhd6Vvz/pexels-mart-production-7709262.jpg")  no-repeat ; 
+  background-size: cover;
+ 
+	
+}
+
+.footer-col {
+	width: 25%;
+	padding: 0 15px;
+}
+
+.footer-col h4 {
+	font-size: 18px;
+	color: #af2a2b;
+	text-transform: capitalize;
+	margin-top: 20px;
+	margin-bottom: 35px;
+	font-weight: 900;
+	position: relative;
+
+}
+
+.footer-col h4::before {
+	content: '';
+	position: absolute;
+	left: 10;
+	bottom: -10px;
+	background-color: gray;
+	height: 2px;
+	box-sizing: border-box;
+	width: 50px;
+}
+
+.footer-col ul li:not(:last-child){
+	margin-bottom: 10px;
+}
+
+.footer-col ul li a {
+	font-size: 16px;
+	text-transform: capitalize;
+	color: #ffffff;
+	text-decoration: none;
+	font-weight: 300;
+	color: #faf5f5;
+	display: block;
+	transition: all 0.3s ease;
+}
+
+.footer-col ul li a:hover {
+	color: #ffffff;
+	padding-left: 8px;
+}
+
+.footer-col .social-links a {
+	display: inline-block;
+	height: 40px;
+	width: 40px;
+	background-color: rgba(255, 255, 255, 0.2);
+	margin: 0 10px 10px 0;
+	text-align: center;
+	line-height: 40px;
+	border-radius: 50%;
+	color: #ffffff;
+	transition: all 0.5s ease;
+}
+
+.footer-col .social-links a:hover {
+	color: #24262b;
+	background-color: #ffffff;
+}
+
+.form-footer input{
+ position: relative;
+ padding: 5px;
+ width: 100%;
+ height: auto;
+ background-color: transparent;
+ border: 2px solid red;
+ border-radius: 5px;
+ color: white;
+}
+
+.form-footer textarea {
+ position: relative;
+ width: 100%;
+ height: 20vh;
+ background-color: transparent;
+ border: 2px solid red;
+ border-radius: 5px;
+ color: white;
+}
+
+.footer-btn {
+	width: 100%;
+	background-color: brown;
+	border: none;
+	color: white;
+}
+		
+/* .................................. Footer-section End.......................................*/
+		
+		
+		
+/* .................................. About-section Start.......................................*/
+.about-us {
+ text-align: center;	
+ padding-bottom: 100px; 
+}
+	
+i:hover {
+ color: brown;	
+ cursor: pointer;	
+}	
+.second-col {
+ margin-top: -60px;		
+}
+.about-logo {
+  width: 10%;
+  height: 10%;	
+  border-radius: 50%;	
+  text-align: center;	
+}	
+
+.about-col h1::before {
+	content: '';
+	position: absolute;
+	left: 45%;
+	bottom: 90px;
+	background-color: red;
+	height: 2px;
+	box-sizing: border-box;
+	width: 80px;
+	}	
+.buton {
+  background: brown;
+  color: white;
+  font-weight: 600;	
+  padding: 16px 35px;
+  border-radius: 50px;
+  border: 1px solid brown;
+  margin-top: 10px;	
+  margin-bottom: 10px;
+	}
+.buton:hover {
+ background: black;
+ color: white;
+ font-weight: 600;		
+}	
+/* .................................. About-section End.......................................*/
+
+
+
+	
+	.buttn {
+		background: brown;
+		color: black;
+		border-radius: 50px;
+		border: none;
+	}	
+	.join:hover {
+		background:white;
+		color: red;
+	}
+	
+	.lets-work	{
+		text-align: center;
+		margin-bottom: 100%;
+		
+	}
+
+	
+/* RESPONSIVENESS */
+
+		
+@media(max-width: 767px){
+	.navlogo {
+display: none;	
+	}	
+	.footer-col {
+		width: 50%;
+		margin-bottom: 30px;
+	}
+	.second-col {
+		margin-top: 30px;
+	}
+	#apply {
+	
+		margin-right: 180px;
+	}
+}
+
+@media(max-width: 574px){
+	.footer-col {
+		width: 100%;
+	}
+	.navbar-toggler {
+	margin-top: 10px;	
+	margin-right: 10px;
+	}
+	
+	#heading{
+        position: absolute;
+		right: 15%;
+	    font-size: 20px;
+		width: 70%;
+	}
+	.join {
+		margin-right: 140px;
+	}
+	.maindata .data .navdata .links .nav-link{
+		padding-left: 30px;
+	}
+	.butn {
+		margin-left: 30px;
+	}
+	.second-col {
+		margin-top: 30px;
+	}
+	#apply {
+	
+		margin-right: 180px;
+	}
+	.navlogo {
+display: none;		
+	}	
+	.apply 
+	{
+		position: absolute;
+		top: 8%;
+		right: 20%;
+		color: white;
+		background: #af2a2b;
+		margin-right: 100px;
+		margin-top: 80px;
+		border: none;
+	}
+	
+}
+
+</style>
+	
+</head>
+	
+<body>
+	<nav class="navbar navbar-expand-lg navbar-light  maindata">
+  <button class="navbar-toggler toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+
+  <div class="collapse navbar-collapse data" id="navbarSupportedContent">
+    <ul class="navbar-nav mx-auto mx-5 navdata">
+      <a class="navbar-brand" href="#"><img 
+class="navlogo"	src="https://i.ibb.co/NtfKMkZ/Logo-2-1.png"></a>
+  
+		<li class="nav-item active links">
+        <a class="nav-link" href="/" style='color: #af2a2b; font-weight: 600;'>Home <span class="sr-only">(current)</span></a>
+      </li>
+     <li class="nav-item links">
+        <a class="nav-link" href="/about">About</a>
+      </li>
+      <li class="nav-item links">
+        <a class="nav-link" href="#">Resources</a>
+      </li>
+	<li class="nav-item links">
+        <a class="nav-link" href="/contact">Contact us</a>
+      </li> 
+	 <li  class="nav-item links">
+      <a class="btn btn-primary btn-lg join" class="nav-link" href="/sendemail">Join us</a>     
+      </li>
+    </ul>
+  </div>
+</div>
+</nav>
+
+	<div>
+<h1 id="heading" class="text-white" style="text-align: center;position: absolute; margin-top: 250px; margin-left: 170px; font-weight: 600;">CONNECTING BEYOND <span>LIMITS</span></h1>	 <a class="btn btn-primary btn-lg apply" style="position: absolute; margin-top: 310px; margin-left: 370px; padding: 5px 30px;" class="nav-link" href="/sendemail">Apply</a>   			
+<img class="img-fluid background" src="https://images.pexels.com/photos/9002468/pexels-photo-9002468.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500">
+
+		
+	</div>
+
+<div style="background: black; width: 100%; height: 100%; padding-top: 50px;">
+<div class="container about-us" data-aos="zoom-in">	
+<div class="row">
+<div class="col-md-12 about-col">
+	<h1 style="color: brown; margin-bottom: 120px; font-weight: 900;">
+	 ABOUT US	
+	</h1>
+	
+</div> 
+	
+<div class="col-md-6" data-aos="fade-left">
+		   <img style="width: 100%;" src="https://thumbs.dreamstime.com/b/female-customer-services-agent-call-center-positive-headset-working-103306945.jpg">
+ </div>
+    <div class="col-md-6 second-col" data-aos="fade-right">
+   <img class="about-logo"  style="margin-top: 20px" src="https://proxy-us-west2.goorm.io//service/60516f077d40108b17207b90_dhUFxcVaWZBNirRp09a.run-us-west2.goorm.io/9080//file/load/logos.png?path=d29ya3NwYWNlJTJGYnVzaW5lc3MlMkZub2RlLWpzLWdldHRpbmctc3RhcnRlZCUyRnB1YmxpYyUyRmxvZ29zLnBuZw==&docker_id=dhUFxcVaWZBNirRp09a&secure_session_id=9V0aYMoyAWIjz9alXKRQJRuLf94mo_f7">
+      <div class= "abt-us">
+		  <h1 style="color: red; margin-top: 20px;">THE VISION</h1>	
+
+	<p class="text-white">TO MAKE A DIFFERENCE & IMPACT LIVES </p>
+	<p class="blockquote" style="color: white;">
+ Take advantage of a talented and educated global labor force that is extremely motivated to work for you. We specialize in creating processes to maximize your core staff productivity. Plus we win awards for 3rd party technology sales, complex back office support, call center support, accounting, and health care initiatives.
+	</p>	  
+     <a><button class="buton" href='/about'>READ MORE</button></a>
+     </div>
+   </div>	
+  
+</div>  
+</div>	
+</div>
+
+
+
+<section>
+	
+  
+	
+<div class="lets-work">	
+		<div class="container text">
+	   	<h1 style="font-family: 'Assistant', sans-serif; font-weight: 600; color: brown; margin-top: -200px;">LET'S WORK TOGETHER</h1>
+
+<p style="font-family: 'Assistant', sans-serif; color: white; padding: 10px 0; font-weight: 200; font-size: 2rem; color: black">Get in touch today !</p>
+		   
+<a href="tel: +92 (336) 011 9182" class="btn btn-primary btn-lg buttn">+92 (336) 011 9182</a>
+<ul class="hover" style="font-size:2rem; display: flex; margin-bottom: 35%; margin-right: 20px; text-align: center; justify-content: center;" >
+	 <li style="color: black"><i class="fab fa-facebook"></i></li>	
+	 <li style="margin-left: 10px; color: brown"><i class="fab fa-instagram"></i></li>	
+	 <li style="margin-left: 10px; color: black"><i class="fab fa-linkedin"></i></li>	
+	</ul>
+		</div>   
+ </div>	
+	
+</section>
+
+
+
+  <footer class="footer">
+	  <div class="container">
+		  <div class="row">
+			  <div class="col-xs-12 col-md-3 footer-col">
+				  <h4>Kpleads</h4>
+				  <ul>
+				    <p class="text-white">Take advantage of a talented and educated global labor force that is extremely motivated to work for you. We specialize in creating processes to maximize your core staff productivity. Plus we win awards for 3rd party technology sales, complex back office support, call center support, accounting, and health care initiatives.</p>
+                   
+				  </ul>
+			  </div>
+			  <div class="col-xs-12 col-md-3 footer-col">
+				  <h4>SOLUTIONS</h4>
+				  <ul class="text-white">
+					<li>Final Expenses</li>
+					<li>Business Solutions</li>
+					<li>Auto & Health</li>
+					<li>Insurance Agency</li>
+					<li>Inbound Customer Service</li>
+					<li>Home Security & Solar</li>
+
+				  </ul>
+			  </div>
+			  <div class="col-xs-12 col-md-3 footer-col">
+				  <h4>COMPANY</h4>
+				  <ul class="text-white">
+					<li>About Us</li>
+					<li>Events</li>
+					<li>Careers</li>
+					<li>Contact Us</li>
+				  </ul>
+			  </div>
+			  <div class="col-xs-12 col-md-3 footer-col">
+				  <h4>follow us</h4>
+				  <ul class="form-footer">
+                      <div class="form-group">
+                      	<input type="text" name="" placeholder="Email">   
+                      </div>
+                      <div class="form-group">
+                      <textarea placeholder="Message">	
+                      </textarea>
+                      </div>
+                  </ul>
+                           <div class="form-group">
+                      <a href="" class="btn btn-md btn-primary footer-btn">Send</a>	
+                      </div>
+				  
+			  </div>
+		  </div>
+		 <div class="row">
+			 <div class="col-md-12">
+				 <p style="color: red; text-align: center; margin-top: 40px;">
+					<span style="color: brown"> &copy; </span> Kpleads 
+				 </p>
+			 </div>
+		  </div> 
+	  </div>
+  </footer>
+
+
+	
+
+<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>	
+ <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+
+<script>
+	    AOS.init({
+            offset: 300,
+            duration: 1000,
+        });
+        </script>	
+		
+</body>
+</html>
